@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2021",
+    "types": ["node", "jest"],
+    "strict": true,
+    "strictNullChecks": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": false,
+    "declaration": false,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+}
